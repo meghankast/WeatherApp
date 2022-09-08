@@ -19,8 +19,8 @@
 		FF630F8D28BBFAE600406CB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF630F6328BBFAE200406CB3 /* ContentView.swift */; };
 		FF630F8E28BBFAE600406CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF630F6428BBFAE600406CB3 /* Assets.xcassets */; };
 		FF630F8F28BBFAE600406CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF630F6428BBFAE600406CB3 /* Assets.xcassets */; };
-		FFCE419928BC534B00CD70D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFCE419828BC534B00CD70D9 /* GoogleService-Info.plist */; };
-		FFCE419A28BC534B00CD70D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFCE419828BC534B00CD70D9 /* GoogleService-Info.plist */; };
+		FF8178E528C9692D00B3EC44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF8178E428C9692D00B3EC44 /* GoogleService-Info.plist */; };
+		FF8178E628C9692D00B3EC44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF8178E428C9692D00B3EC44 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,7 @@
 		FF630F8228BBFAE600406CB3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF630F8628BBFAE600406CB3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		FF630F8828BBFAE600406CB3 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		FFCE419828BC534B00CD70D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FF8178E428C9692D00B3EC44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +134,7 @@
 			children = (
 				FF630F6328BBFAE200406CB3 /* ContentView.swift */,
 				FF630F6228BBFAE200406CB3 /* WeatherAppApp.swift */,
-				FFCE419828BC534B00CD70D9 /* GoogleService-Info.plist */,
+				FF8178E428C9692D00B3EC44 /* GoogleService-Info.plist */,
 				FF630F6428BBFAE600406CB3 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -311,7 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF630F8E28BBFAE600406CB3 /* Assets.xcassets in Resources */,
-				FFCE419928BC534B00CD70D9 /* GoogleService-Info.plist in Resources */,
+				FF8178E528C9692D00B3EC44 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF630F8F28BBFAE600406CB3 /* Assets.xcassets in Resources */,
-				FFCE419A28BC534B00CD70D9 /* GoogleService-Info.plist in Resources */,
+				FF8178E628C9692D00B3EC44 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

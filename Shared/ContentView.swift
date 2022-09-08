@@ -58,12 +58,6 @@ struct ContentView: View {
         NavigationView {
             if viewModel.signedIn {
                 AppMainPageView()
-//                Button(action: { viewModel.signOut()}, label: {Text("Sign Out").fontWeight(.bold)
-//                        .frame(width:150, height:30)
-//                        .padding()
-//                        .background(Color.blue)
-//                        .cornerRadius(30)
-//                        .foregroundColor(Color.white)})
             } else {
                 SignInView()
             }
