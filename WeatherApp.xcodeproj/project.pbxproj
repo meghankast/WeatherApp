@@ -9,14 +9,17 @@
 /* Begin PBXBuildFile section */
 		32217EDE1E32C3BCC1BDAC59 /* Pods_WeatherApp__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2EF40AB2621EEBA566F37C /* Pods_WeatherApp__iOS_.framework */; };
 		74AD1CADB7EDCB11F1AD6CA6 /* Pods_WeatherApp__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE61707F18DFDC157D117A23 /* Pods_WeatherApp__macOS_.framework */; };
+		EA8C9D1A28CBB0AF00D9A59F /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8C9D1928CBB0AF00D9A59F /* AppViewModel.swift */; };
+		EA8C9D1C28CBB11800D9A59F /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8C9D1B28CBB11800D9A59F /* MainPageView.swift */; };
+		EA8C9D1E28CBB16400D9A59F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8C9D1D28CBB16400D9A59F /* SignInView.swift */; };
+		EA8C9D2028CBB1B000D9A59F /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8C9D1F28CBB1B000D9A59F /* SignUpView.swift */; };
 		FF630F7B28BBFAE600406CB3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF630F7A28BBFAE600406CB3 /* Tests_iOS.swift */; };
 		FF630F7D28BBFAE600406CB3 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF630F7C28BBFAE600406CB3 /* Tests_iOSLaunchTests.swift */; };
 		FF630F8728BBFAE600406CB3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF630F8628BBFAE600406CB3 /* Tests_macOS.swift */; };
 		FF630F8928BBFAE600406CB3 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF630F8828BBFAE600406CB3 /* Tests_macOSLaunchTests.swift */; };
-		FF630F8A28BBFAE600406CB3 /* WeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF630F6228BBFAE200406CB3 /* WeatherAppApp.swift */; };
-		FF630F8B28BBFAE600406CB3 /* WeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF630F6228BBFAE200406CB3 /* WeatherAppApp.swift */; };
+		FF630F8A28BBFAE600406CB3 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF630F6228BBFAE200406CB3 /* WeatherApp.swift */; };
+		FF630F8B28BBFAE600406CB3 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF630F6228BBFAE200406CB3 /* WeatherApp.swift */; };
 		FF630F8C28BBFAE600406CB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF630F6328BBFAE200406CB3 /* ContentView.swift */; };
-		FF630F8D28BBFAE600406CB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF630F6328BBFAE200406CB3 /* ContentView.swift */; };
 		FF630F8E28BBFAE600406CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF630F6428BBFAE600406CB3 /* Assets.xcassets */; };
 		FF630F8F28BBFAE600406CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF630F6428BBFAE600406CB3 /* Assets.xcassets */; };
 		FF8178E528C9692D00B3EC44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF8178E428C9692D00B3EC44 /* GoogleService-Info.plist */; };
@@ -47,10 +50,14 @@
 		C5ACE72CAEEFFC0711B20D81 /* Pods-WeatherApp (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp (iOS).release.xcconfig"; path = "Target Support Files/Pods-WeatherApp (iOS)/Pods-WeatherApp (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		D5494C3FD9CE2E66EA0F1BD5 /* Pods-WeatherApp (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp (macOS).release.xcconfig"; path = "Target Support Files/Pods-WeatherApp (macOS)/Pods-WeatherApp (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		E31377B13FD63993669E4A00 /* Pods-WeatherApp (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp (iOS).debug.xcconfig"; path = "Target Support Files/Pods-WeatherApp (iOS)/Pods-WeatherApp (iOS).debug.xcconfig"; sourceTree = "<group>"; };
-		FF630F6228BBFAE200406CB3 /* WeatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppApp.swift; sourceTree = "<group>"; };
+		EA8C9D1928CBB0AF00D9A59F /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		EA8C9D1B28CBB11800D9A59F /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		EA8C9D1D28CBB16400D9A59F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		EA8C9D1F28CBB1B000D9A59F /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		FF630F6228BBFAE200406CB3 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
 		FF630F6328BBFAE200406CB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF630F6428BBFAE600406CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FF630F6928BBFAE600406CB3 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF630F6928BBFAE600406CB3 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF630F6F28BBFAE600406CB3 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF630F7128BBFAE600406CB3 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		FF630F7628BBFAE600406CB3 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +114,25 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		EA8C9D1728CBB05200D9A59F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EA8C9D1928CBB0AF00D9A59F /* AppViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EA8C9D1828CBB05F00D9A59F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF630F6328BBFAE200406CB3 /* ContentView.swift */,
+				EA8C9D1B28CBB11800D9A59F /* MainPageView.swift */,
+				EA8C9D1D28CBB16400D9A59F /* SignInView.swift */,
+				EA8C9D1F28CBB1B000D9A59F /* SignUpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		EE57A26B17E4BC9E050747B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,8 +158,9 @@
 		FF630F6128BBFAE200406CB3 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				FF630F6328BBFAE200406CB3 /* ContentView.swift */,
-				FF630F6228BBFAE200406CB3 /* WeatherAppApp.swift */,
+				EA8C9D1828CBB05F00D9A59F /* View */,
+				EA8C9D1728CBB05200D9A59F /* ViewModel */,
+				FF630F6228BBFAE200406CB3 /* WeatherApp.swift */,
 				FF8178E428C9692D00B3EC44 /* GoogleService-Info.plist */,
 				FF630F6428BBFAE600406CB3 /* Assets.xcassets */,
 			);
@@ -143,7 +170,7 @@
 		FF630F6A28BBFAE600406CB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF630F6928BBFAE600406CB3 /* WeatherApp.app */,
+				FF630F6928BBFAE600406CB3 /* Weather.app */,
 				FF630F6F28BBFAE600406CB3 /* WeatherApp.app */,
 				FF630F7628BBFAE600406CB3 /* Tests iOS.xctest */,
 				FF630F8228BBFAE600406CB3 /* Tests macOS.xctest */,
@@ -198,7 +225,7 @@
 			packageProductDependencies = (
 			);
 			productName = "WeatherApp (iOS)";
-			productReference = FF630F6928BBFAE600406CB3 /* WeatherApp.app */;
+			productReference = FF630F6928BBFAE600406CB3 /* Weather.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FF630F6E28BBFAE600406CB3 /* WeatherApp (macOS) */ = {
@@ -427,7 +454,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF630F8C28BBFAE600406CB3 /* ContentView.swift in Sources */,
-				FF630F8A28BBFAE600406CB3 /* WeatherAppApp.swift in Sources */,
+				FF630F8A28BBFAE600406CB3 /* WeatherApp.swift in Sources */,
+				EA8C9D1C28CBB11800D9A59F /* MainPageView.swift in Sources */,
+				EA8C9D1A28CBB0AF00D9A59F /* AppViewModel.swift in Sources */,
+				EA8C9D2028CBB1B000D9A59F /* SignUpView.swift in Sources */,
+				EA8C9D1E28CBB16400D9A59F /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,8 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF630F8D28BBFAE600406CB3 /* ContentView.swift in Sources */,
-				FF630F8B28BBFAE600406CB3 /* WeatherAppApp.swift in Sources */,
+				FF630F8B28BBFAE600406CB3 /* WeatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +621,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95RF84W9WA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -605,11 +636,11 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.meghankast.WeatherApp;
-				PRODUCT_NAME = WeatherApp;
+				PRODUCT_NAME = Weather;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -621,6 +652,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95RF84W9WA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -635,11 +667,11 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.meghankast.WeatherApp;
-				PRODUCT_NAME = WeatherApp;
+				PRODUCT_NAME = Weather;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

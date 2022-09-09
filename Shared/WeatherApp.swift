@@ -1,5 +1,5 @@
 //
-//  WeatherAppApp.swift
+//  WeatherApp.swift
 //  Shared
 //
 //  Created by Meghan Kast on 8/28/22.
@@ -9,7 +9,7 @@ import SwiftUI
 import Firebase
 
 @main
-struct WeatherAppApp: App {
+struct WeatherApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
