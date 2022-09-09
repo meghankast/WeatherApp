@@ -9,13 +9,3 @@ target 'WeatherApp (iOS)' do
   pod 'Firebase/Auth'
 
 end
-
-target 'WeatherApp (macOS)' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-
-  pod 'Firebase/Core'
-  pod 'Firebase/Auth'
-  pod 'Firebase/Analytics'
-
-end
