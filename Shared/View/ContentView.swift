@@ -9,14 +9,14 @@ import SwiftUI
 import FirebaseAuth
 
 struct ContentView: View {
-    @EnvironmentObject var viewModel: AppViewModel
+    @ObservedObject var viewModel: AppViewModel
     
     var body: some View {
         NavigationView {
             if viewModel.signedIn {
-                MainPageView()
+                MainPageView(viewModel: viewModel)
             } else {
-                SignInView()
+                SignInView(viewModel: viewModel)
             }
         }
         .onAppear {
@@ -28,9 +28,8 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ContentView()
+            ContentView(viewModel: AppViewModel())
                 .preferredColorScheme(.light)
-                .environmentObject(AppViewModel())
         }
     }
 }

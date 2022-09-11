@@ -8,23 +8,37 @@
 import SwiftUI
 
 struct MainPageView: View {
-    @EnvironmentObject var viewModel: AppViewModel
+    @ObservedObject var viewModel: AppViewModel
     
     var body: some View {
         ZStack {
             VStack(alignment: .center){
-                Text("Today's Weather!")
+                Spacer()
+                Text("Atlanta Weather!")
                     .font(.system(.largeTitle, design: .rounded).weight(.bold))
                     .frame(maxWidth: .infinity, alignment: .center)
                     .padding()
+
+                Text(viewModel.weatherIcon)
+                    .font(.system(size: 120))
                     .padding()
+                Text("Temperature: " + viewModel.temperature + "ºF")
+                    .font(.system(size: 30))
+                    .bold()
+                
+                Text( viewModel.weatherDescription)
+                    .font(.system(size: 30))
+                    .bold()
+                    .padding()
+                Spacer()
                 VStack {
+                    Spacer()
                     Button(action: {
                         viewModel.signOut()
                     }, label: {
                         Text("Sign Out")
                             .fontWeight(.bold)
-                            .frame(width:150, height:30)
+                            .frame(width:100, height:30)
                             .padding()
                             .background(Color.blue)
                             .cornerRadius(30)
@@ -41,6 +55,7 @@ struct MainPageView: View {
 
 struct MainPageView_Previews: PreviewProvider {
     static var previews: some View {
-        MainPageView()
+        MainPageView(viewModel: AppViewModel())
+            .previewInterfaceOrientation(.portrait)
     }
 }

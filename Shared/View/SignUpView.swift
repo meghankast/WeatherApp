@@ -10,7 +10,7 @@ import SwiftUI
 struct SignUpView: View {
     @State var email = ""
     @State var password = ""
-    @EnvironmentObject var viewModel: AppViewModel
+    @ObservedObject var viewModel: AppViewModel
     @State private var isSecured: Bool = true
     
     var body: some View {
@@ -92,6 +92,7 @@ struct SignUpView: View {
 
 struct SignUpView_Previews: PreviewProvider {
     static var previews: some View {
-        SignUpView()
+        SignUpView(viewModel: AppViewModel())
+            .previewInterfaceOrientation(.portraitUpsideDown)
     }
 }

@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>716591363413-aa4p0pva69g9b4gsf3bnhp2ii0e5n0t3.apps.googleusercontent.com</string>
+	<string>716591363413-bijd769qvb4jrvn8ni1fso0o1a3s11c4.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.716591363413-aa4p0pva69g9b4gsf3bnhp2ii0e5n0t3</string>
+	<string>com.googleusercontent.apps.716591363413-bijd769qvb4jrvn8ni1fso0o1a3s11c4</string>
 	<key>API_KEY</key>
 	<string>AIzaSyCpWcV_nRXQS3kKpIS0n-K8nZtjBa6Ulw4</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.meghankast.WeatherApp</string>
+	<string>com.meghankast.WeatherAppCS4261</string>
 	<key>PROJECT_ID</key>
 	<string>weathertracker-ed49d</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:716591363413:ios:11b6c7a4e070c27e6a2bdc</string>
+	<string>1:716591363413:ios:aaeb2266f333bba26a2bdc</string>
 </dict>
 </plist>

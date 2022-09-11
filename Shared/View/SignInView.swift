@@ -10,13 +10,14 @@ import SwiftUI
 struct SignInView: View {
     @State var email = ""
     @State var password = ""
-    @EnvironmentObject var viewModel: AppViewModel
+//    @EnvironmentObject var viewModel: AppViewModel
+    @ObservedObject var viewModel: AppViewModel
     @State private var isSecured: Bool = true
     
     var body: some View {
         ZStack {
             VStack(alignment: .center){
-                Text("Weather Tracker")
+                Text("Atlanta Weather")
                     .font(.system(.largeTitle, design: .rounded).weight(.bold))
                     .frame(maxWidth: .infinity, alignment: .center)
                     .padding()
@@ -84,7 +85,7 @@ struct SignInView: View {
                             .foregroundColor(Color.white)
                     })
                     .padding()
-                    NavigationLink("Create Account", destination: SignUpView())
+                    NavigationLink("Create Account", destination: SignUpView(viewModel: viewModel))
                 }
                 .padding()
                 Spacer()
@@ -97,6 +98,6 @@ struct SignInView: View {
 
 struct SignInView_Previews: PreviewProvider {
     static var previews: some View {
-        SignInView()
+        SignInView(viewModel: AppViewModel())
     }
 }
