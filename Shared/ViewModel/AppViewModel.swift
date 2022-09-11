@@ -8,7 +8,7 @@
 import SwiftUI
 import FirebaseAuth
 
-private let defaultIcon = "❓"
+private let defaultIcon = "☁️"
 private let iconMap = [
   "Drizzle" : "🌧",
   "Thunderstorm" : "⛈",
